@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 50px;
+            padding-top: 0%;
+        }
+        p{
+            font-size: 25px;
+        }
+        form input{
+            width:300px;
+            height: 25px;
+        }
+        form select{
+            width:300px;
+            height: 25px;
+        }
+        form{
+            padding-left: 200px;
+        }
+    </style>
+</head>
+<body>
+   <h1>Make Your Reservation</h1> 
+   <p>We are excited to welcome you to our resturant! To ensure a delightful dining experience, please take a moment to fill
+    out the reservation form below. This helps us prepare for your visit and accommodate any special requests you may have.
+    We look forward to serving you!
+   </p>
+   <form>
+    <lebel>NAME:</lebel>
+    <input type="text" placeholder="full name" required>
+    <br>
+    <br>
+    <lebel>CONTACT NUMBER:</lebel>
+    <input type="text" required>
+    <br>
+    <br>
+    <lebel>EMAIL:</lebel>
+    <input type="email" placeholder="name@gmail.com" required>
+    <br>
+    <br>
+    <lebel>EVENT DATE:</lebel>
+    <input type="date" required>
+    <br>
+    <br>
+    <lebel>EVENT TiME:</lebel>
+    <input type="time" required>
+    <br>
+    <br>
+    <lebel>NUMBER OF GUEST:</lebel>
+    <input type="number" required>
+    <br>
+    <br>
+    <lebel>DIETARY RESTRICTIONS:</lebel>
+    <select required>
+        <option>Vegetarian</option>
+        <option>Vegan</option>
+        <option>Gluten free</option>
+        <option>Nut Allergy</option>
+        <option>Diary-Free</option>
+        <option>Others</option>
+        <option>None</option>
+    </select>
+    <br>
+    <br>
+    <lebel>PREFERRED SITTING:</lebel>
+    <select required>
+        <option>Indoor</option>
+        <option>Outdoor</option>
+        <option>Specific Table</option>
+    </select>
+    <br>
+    <br>
+    <lebel>CREDIT CARD INFORMATION:</lebel>
+    <input type="text" placeholder="optional">
+    <br>
+    <br>
+    <a href="mailto:emmanuelpelemo73@gmail.com">
+        <input type="submit">
+    </a>
+   </form>
+   <p>Thank you for choosing us! We look forward for your visit.</p>
+</body>
+</html>
